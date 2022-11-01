@@ -12,14 +12,7 @@ Open Source GNU License
 
 */
 
-/*!
- * \class MyToggleLookAndFeel
- *
- * \brief Look and Feel fr Toggle Button.
- *
- * \author Gene Brown
- * \date October 2022
- */
+
 
 
 class MyToggleLookAndFeel : public LookAndFeel_V4
