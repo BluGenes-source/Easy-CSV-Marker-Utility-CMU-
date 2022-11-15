@@ -1,6 +1,7 @@
 #include "MainComponent.h"
 
-
+/* 
+ *  Written By [11/14/2022 - Gene Brown]*/
 
 
 //==============================================================================
@@ -11,7 +12,7 @@ MainComponent::MainComponent()
 		false,                    // can edit file name,
 		false,                    // is directory,
 		false,                    // is for saving,
-		{"*.csv"},                       // browser wildcard suffix,
+		{"*.csv"},                // browser wildcard suffix,
 		{},                       // enforced suffix,
 		"Select CSV file to open"));  // text when nothing selected
 	addAndMakeVisible(fileComp.get());
@@ -48,9 +49,9 @@ MainComponent::MainComponent()
 
 	addAndMakeVisible(AppTitle);
 	AppTitle.setFont(juce::Font("Times New Roman", 36.00f, juce::Font::plain).withTypefaceStyle("Bold"));
-	AppTitle.setColour(juce::Label::textColourId, juce::Colour(0xff1bcb39));
-
-	AppTitle.setText("Easy Mark - Chapter Marker Utility",dontSendNotification);
+	//AppTitle.setColour(juce::Label::textColourId, juce::Colour(0xff1bcb39));
+	AppTitle.setColour(juce::Label::textColourId, juce::Colours::goldenrod);
+	AppTitle.setText("Easy Marker - Chapter Marker Utility",dontSendNotification);
 
 	setSize(800, 600);
 }
@@ -66,7 +67,7 @@ MainComponent::~MainComponent()
 void MainComponent::paint (juce::Graphics& g)
 {
 	auto area = getLocalBounds();
-	auto strokeColour = juce::Colour(0xff1e20d8);  // blue border
+	auto strokeColour = juce::Colours::goldenrod;  // blue border
 	g.fillAll(Colours::darkgrey);
 	g.setColour(strokeColour);
 	g.drawRect(area, 2);

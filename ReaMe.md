@@ -1,10 +1,12 @@
 # Chapter Marker Utility (CMU)
 
-A utility to create chapter markers from a comma seperated value file (CSV) exported from DaVinci Resolve, or any video editor that can export CSV files.
+A utility to create chapter markers from a comma seperated value file (CSV) exported from DaVinci Resolve, 
+or any video editor that can export CSV files.
 
 This application was created using JUCE version 6.07, but, may work with later versions. (untested).
 
-It does require that you add a method to the JUCE core that allows you to clear the filename box.
+It does require that you add a method to the JUCE core that allows you to clear the filename box in the
+filenameComponent.
 
 
 Open the file juce_FilenameComponent.h and at the bottom of the public declarartions add this method:
@@ -19,7 +21,7 @@ In the .cpp file add this code:
 void FilenameComponent::clearBox()
 {
     filenameBox.clear();
-    auto currentFile = File::getCurrentWorkingDirectory().getChildFile(getCurrentFileText());
+    auto currentFile = File::getCurrentWorkingDirectory().getChildFile(getCurrentFileText()); 
     currentFile = "";
     setCurrentFile(currentFile, true, dontSendNotification);
    

@@ -27,7 +27,7 @@ public:
 
         String dumpCmdLine = "";
         dumpCmdLine = commandLine;
-        mainWindow.reset (new MainWindow (getApplicationName()));
+        mainWindow.reset (new MainWindow (getApplicationName() + " " + getApplicationVersion()));
     }
 
     void shutdown() override
