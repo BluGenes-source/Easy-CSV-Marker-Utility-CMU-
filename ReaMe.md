@@ -5,6 +5,11 @@ or any video editor that can export CSV files.
 
 This application was created using JUCE version 6.07, but, may work with later versions. (untested).
 
+Get the API here: https://github.com/juce-framework
+
+Just clone and then use "checkout branch 6.0.7"  
+This is located in the "releases" area of GitHub. (https://github.com/juce-framework/JUCE/releases)
+
 It does require that you add a method to the JUCE core that allows you to clear the filename box in the
 filenameComponent.
 
