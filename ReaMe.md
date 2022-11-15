@@ -41,7 +41,7 @@ This clears the filename box, but, does not remove the history.  The intention i
 
 Open the jucer file and choose your exporter, launch and build it..
 
-Run the app and just drop a CSV file onto the filname component.  It will create the markers and you can save as a text file, or, copy and paste from the clip board. It saves the text file in the same directory as the CSV file.
+Run the app and just drop a CSV file onto the file name component.  It will create the markers and you can save as a text file, or, copy and paste from the clip board. It saves the text file in the same directory as the CSV file.
 
 The app was created to use with YouTube.  Just paste to the description of your video.
 
