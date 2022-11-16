@@ -26,10 +26,7 @@ In the .cpp file add this code:
 void FilenameComponent::clearBox()
 {
     filenameBox.clear();
-    auto currentFile = File::getCurrentWorkingDirectory().getChildFile(getCurrentFileText()); 
-    currentFile = "";
-    setCurrentFile(currentFile, true, dontSendNotification);
-   
+    setCurrentFile({}, true, dontSendNotification);
 }
 ~~~
 

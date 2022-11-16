@@ -200,8 +200,6 @@ void MainComponent::filenameComponentChanged(FilenameComponent* fileComponentTha
 }
 
 
-
-
 void MainComponent::writeNewfile(const File& filetowrite)
 {
 	FileOutputStream outputStream(filetowrite);

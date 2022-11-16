@@ -26,7 +26,7 @@ public:
         // This method is where you should put your application's initialisation code..
 
         String dumpCmdLine = "";
-        dumpCmdLine = commandLine;
+        dumpCmdLine = commandLine;  // stops compiler warning
         mainWindow.reset (new MainWindow (getApplicationName() + " " + getApplicationVersion()));
     }
 
@@ -52,7 +52,7 @@ public:
         // the other instance's command-line arguments were.
 
 		String dumpCmdLine = "";
-		dumpCmdLine = commandLine;
+		dumpCmdLine = commandLine; // stops compiler warning
 
     }
 
