@@ -6,8 +6,10 @@ project, you have make a *small* modification to the JUCE core library.
 
 
 
+#### Example CSV
+![Note Pad Screen Shot](NotePadScreenShot.jpg)
 
+#### YouTube Ready Chapter Markers
 ![Easy Marker Screen Shot](EasyMarkerScreenShot.jpg)
 
 
-![Note Pad Screen Shot](NotePadScreenShot.jpg)
