@@ -67,7 +67,7 @@ MainComponent::~MainComponent()
 void MainComponent::paint (juce::Graphics& g)
 {
 	auto area = getLocalBounds();
-	auto strokeColour = juce::Colours::goldenrod;  // blue border
+	auto strokeColour = juce::Colours::goldenrod;  // border
 	g.fillAll(Colours::darkgrey);
 	g.setColour(strokeColour);
 	g.drawRect(area, 2);
@@ -158,7 +158,7 @@ void MainComponent::readFile(const File& fileToRead)
 				}
 			}
 
-			for (int Index = 0; Index < lineSize; Index++)  // end 21nd field
+			for (int Index = 0; Index < lineSize; Index++)  // end 22nd field
 			{
 				if (nextWord[Index] == ',')
 					targetCount++;
