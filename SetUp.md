@@ -12,6 +12,8 @@ Get the API here: https://github.com/juce-framework
 Just clone and then use "checkout branch 6.0.7"  
 This is located in the "releases" area of GitHub. (https://github.com/juce-framework/JUCE/releases)
 
+From there, follow the instructions on how to build the ProJucer App.
+
 It does require that you add a method to the JUCE core that allows you to clear the filename box in the
 filenameComponent.
 
