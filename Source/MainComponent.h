@@ -64,6 +64,8 @@ public:
     int getSeconds(const tTime atime);
     void listTime();
     void ohNo(const String msg, const bool isError);
+    
+
     bool justClear = false;
     Label AppTitle;
     tTime time1, time2;
@@ -74,6 +76,7 @@ private:
     TextButton clearEditButton;
     TextButton copyButton;
     ToggleButton shouldQuit;
+    
     File dataFilePath;
     MyToggleLookAndFeel TLook;
 
