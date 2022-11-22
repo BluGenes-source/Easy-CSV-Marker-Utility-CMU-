@@ -15,7 +15,7 @@ MainComponent::MainComponent()
 		false,                    // is for saving,
 		{"*.csv"},                // browser wildcard suffix,
 		{},                       // enforced suffix,
-		"Select CSV file to open or drop a CSV file here"));  // text when nothing selected
+		"Select CSV file to open - or - drop a file here"));  // text when nothing selected
 	addAndMakeVisible(fileComp.get());
 	fileComp->addListener(this);
 	fileComp->setDefaultBrowseTarget(File::getSpecialLocation(File::userDocumentsDirectory));
