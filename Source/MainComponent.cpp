@@ -248,7 +248,7 @@ void MainComponent::readFile(const File& fileToRead)
 	
 	if (secFlagged)
 	{
-		ohNo(TRANS("Markers high lighted in Yellow were found to be shorter than 10 seconds! These may not work properly! You should edit this now.."), true);
+		ohNo(TRANS("Markers highlighted in Yellow were found to be shorter than 10 seconds! These may not work properly! You should edit this now.."), true);
 		secFlagged = false;
 	}
 		
