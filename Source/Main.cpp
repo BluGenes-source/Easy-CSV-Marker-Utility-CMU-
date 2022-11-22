@@ -1,7 +1,12 @@
 /*
   ==============================================================================
 
-    This file contains the basic startup code for a JUCE application.
+    
+
+  Open Source GNU License
+  Written By [11/14/2022 - Gene Brown]
+
+
 
   ==============================================================================
 */
@@ -23,7 +28,7 @@ public:
     //==============================================================================
     void initialise (const juce::String& commandLine) override
     {
-        // This method is where you should put your application's initialisation code..
+        // This method is where you should put your application's initialization code..
 
         String dumpCmdLine = "";
         dumpCmdLine = commandLine;  // stops compiler warning
@@ -81,7 +86,6 @@ public:
 
             centreWithSize (getWidth(), getHeight());
            #endif
-// #TODO create a class for reading and writing settings
             setVisible (true);
         }
 

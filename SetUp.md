@@ -3,6 +3,8 @@
 A utility to create chapter markers from a comma seperated value file (CSV) exported from DaVinci Resolve, 
 or any video editor that can export CSV files.
 
+To use a different video editor, see the source code to change the field values.
+
 This application was created using JUCE version 6.07, but, may work with later versions. (untested).
 
 Get the API here: https://github.com/juce-framework
@@ -33,6 +35,8 @@ void FilenameComponent::clearBox()
 This is called when you click the *Clear Edit* button.
 
 This clears the filename box, but, does not remove the history.  The intention is to have a way to "start over".
+
+
 
 ## How to use
 
