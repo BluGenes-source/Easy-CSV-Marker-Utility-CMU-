@@ -14,6 +14,8 @@ This is located in the "releases" area of GitHub. (https://github.com/juce-frame
 
 From there, follow the instructions on how to build the ProJucer App.
 
+## Patching JUCE Core
+
 It does require that you add a method to the JUCE core that allows you to clear the filename box in the
 filenameComponent.
 
@@ -38,7 +40,18 @@ This is called when you click the *Clear Edit* button.
 
 This clears the filename box, but, does not remove the history.  The intention is to have a way to "start over".
 
+### Enabling the component resizer with native OS windows title bar
 
+Optionally, you can enable the bottom resizer component to show when using the native title bar.
+
+in the file found in the JUCE gui basics module, windows, juce_ResisiableWindow.cpp
+(\modules\juce_gui_basics\windows\juce_ResisiableWindow.cpp )
+
+comment out the flag isUsingNativeTitleBar();  
+
+~~~cpp
+const bool resizerHidden = isFullScreen() || isKioskMode() /* || isUsingNativeTitleBar()*/;
+~~~
 
 ## How to use
 
