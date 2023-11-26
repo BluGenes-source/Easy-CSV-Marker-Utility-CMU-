@@ -1,0 +1,13 @@
+Cool Video Description
+
+00:00:00 Intro
+00:01:03 Setup
+00:04:04 Phrase Browser
+00:14:06 Phrase Dialog
+00:17:58 Resizing Phrases
+00:20:20 Ghost Phrases
+00:23:24 Alt Drag Rhythm
+00:32:03 Morph Generator
+00:35:03 Container Phrase (Mystery Phrase)
+00:39:41 Markov Melody Generator
+00:41:40 Cool Outro Animation

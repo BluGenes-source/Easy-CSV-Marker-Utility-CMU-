@@ -21,7 +21,7 @@ filenameComponent.
 
 
 Open the file juce_FilenameComponent.h and at the bottom of the public declarartions add this method:
-
+e.g. (\JUCE\JUCE\modules\juce_gui_basics\filebrowser)
 ~~~cpp
 void clearBox();
 ~~~
