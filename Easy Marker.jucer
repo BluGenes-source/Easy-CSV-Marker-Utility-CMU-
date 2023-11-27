@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="Cu5krJ" name="Easy Marker" projectType="guiapp" useAppConfig="0"
               addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" cppLanguageStandard="17"
-              version="1.5" defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+              version="1.6" defines="JUCE_MODAL_LOOPS_PERMITTED=1">
   <MAINGROUP id="qcqPx2" name="Easy Marker">
     <GROUP id="{B70C3806-6F28-55B8-E0B2-C0992EECBBBE}" name="Source">
       <FILE id="TwVZmq" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
