@@ -1,5 +1,7 @@
 # Chapter Marker Utility (CMU)
 
+Updated to use VS 2022 and JUCE 7.04
+
 A utility to create chapter markers from a comma seperated value file (CSV) exported from DaVinci Resolve, 
 or any video editor that can export CSV files.
 
@@ -48,6 +50,8 @@ in the file found in the JUCE gui basics module, windows, juce_ResisiableWindow.
 (\modules\juce_gui_basics\windows\juce_ResisiableWindow.cpp )
 
 comment out the flag isUsingNativeTitleBar();  
+
+Line 203
 
 ~~~cpp
 const bool resizerHidden = isFullScreen() || isKioskMode() /* || isUsingNativeTitleBar()*/;
