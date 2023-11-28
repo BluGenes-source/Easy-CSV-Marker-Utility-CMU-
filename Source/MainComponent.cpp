@@ -61,6 +61,8 @@ MainComponent::MainComponent()
 
 MainComponent::~MainComponent()
 {
+	 if (textContent != nullptr)
+		 textContent = nullptr;
 	fileComp->removeListener(this);
 	shouldQuit.setLookAndFeel(nullptr);
 
